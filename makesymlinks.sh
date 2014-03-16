@@ -25,8 +25,6 @@ echo "done"
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks from the homedir to any files in the ~/dotfiles directory specified in $files
 for file in $files; do
    filename="${file##*/}"
-   echo $filename
-   echo $script
    if [ "$filename" = "$script" ]
    then
 	continue;
