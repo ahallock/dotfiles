@@ -22,4 +22,5 @@ Bundle 'jelera/vim-javascript-syntax'
 Bundle 'Raimondi/delimitMate'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'ekalinin/Dockerfile.vim'
+Bundle 'git://github.com/editorconfig/editorconfig-vim'
 filetype plugin indent on
