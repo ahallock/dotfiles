@@ -50,6 +50,7 @@ plugins=(git history history-substring-search)
 source $ZSH/oh-my-zsh.sh
 export DOCKER_HOST=tcp://127.0.0.1:4243
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+. $HOME/bin/z.sh
 # User configuration
 
 export PATH="/Users/andrewhallock/bin:/Users/andrewhallock/bin:/Users/andrewhallock/bin:/Users/andrewhallock/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
