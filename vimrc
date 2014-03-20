@@ -23,4 +23,5 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'ekalinin/Dockerfile.vim'
 Bundle 'git://github.com/editorconfig/editorconfig-vim'
+Bundle 'scrooloose/nerdtree'
 filetype plugin indent on
