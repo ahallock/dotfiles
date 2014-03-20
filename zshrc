@@ -5,7 +5,7 @@ ZSH=/Users/andrewhallock/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="miloshadzic"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -45,10 +45,11 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ruby gem history history-substring-search terminalapp brew)
+plugins=(git history history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
-
+export DOCKER_HOST=tcp://127.0.0.1:4243
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 # User configuration
 
 export PATH="/Users/andrewhallock/bin:/Users/andrewhallock/bin:/Users/andrewhallock/bin:/Users/andrewhallock/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"

@@ -1,6 +1,5 @@
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
-export PS1='\$ '
 alias ls='ls -GFh'
 if [ -d "$HOME/bin" ]; then
   PATH="$HOME/bin:$PATH"
