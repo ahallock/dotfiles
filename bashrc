@@ -1,4 +1,6 @@
-export PS1="\[\033[0;30;33m\]\w\[\e[0m\]$ "
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export PS1='\$ '
 alias ls='ls -GFh'
 if [ -d "$HOME/bin" ]; then
   PATH="$HOME/bin:$PATH"
