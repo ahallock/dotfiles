@@ -5,7 +5,11 @@ ZSH=/Users/andrewhallock/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
+#ZSH_THEME="miloshadzic"
+#ZSH_THEME="af-magic"
+#ZSH_THEME="avit"
 ZSH_THEME="miloshadzic"
+
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
