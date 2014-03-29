@@ -5,6 +5,6 @@ if [ -d "$HOME/bin" ]; then
   PATH="$HOME/bin:$PATH"
 fi
 . $HOME/bin/z.sh
-if has("gui_macvim")
+if [ -f /Applications/MacVim.app/Contents/MacOS/Vim ]; then
   alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-endif
+fi
