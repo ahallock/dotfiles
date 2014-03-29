@@ -2,8 +2,15 @@ set t_Co=256
 syntax on
 set background=dark
 colorscheme kolor
+" numbers
 set relativenumber 
 set number
+
+" tabs
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
 imap <C-c> <CR><Esc>O
 
 set nocompatible              " be iMproved, required
