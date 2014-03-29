@@ -5,5 +5,6 @@ if [ -d "$HOME/bin" ]; then
   PATH="$HOME/bin:$PATH"
 fi
 . $HOME/bin/z.sh
-export DOCKER_HOST=tcp://127.0.0.1:4243
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+if has("gui_macvim")
+  alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+endif
