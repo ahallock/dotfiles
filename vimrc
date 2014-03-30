@@ -31,6 +31,7 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'ekalinin/Dockerfile.vim'
 Bundle 'git://github.com/editorconfig/editorconfig-vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'https://github.com/gorodinskiy/vim-coloresque.git'
 filetype plugin indent on
 
 " magic to turn off auto-indenting on paste
