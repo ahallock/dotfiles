@@ -55,6 +55,10 @@ plugins=(git history history-substring-search)
 source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/bin:$PATH"
+
+# source z so we can jump around
+. ~/home/z.sh
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
