@@ -57,7 +57,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/bin:$PATH"
 
 # source z so we can jump around
-. ~/home/z.sh
+. ~/home/bin/z.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
