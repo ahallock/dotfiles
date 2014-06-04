@@ -35,4 +35,6 @@ for file in $files; do
    ln -s $dir/$filename ~/.$filename
 done
 
+mkdir -p ~/.vim/colors
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+curl https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim > ~/.vim/colors/gruvbox.vim
