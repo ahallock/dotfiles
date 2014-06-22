@@ -74,3 +74,8 @@ export PATH="$HOME/bin:$PATH"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+
+# docker aliases and functions
+drm() { docker rm $(docker ps -q -a); }
+drmi() { docker images | awk '/^<none>/ {print $3}' | xargs docker rmi; }
