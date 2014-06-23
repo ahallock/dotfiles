@@ -10,7 +10,7 @@ ZSH_THEME="miloshadzic"
 #ZSH_THEME="avit"
 #ZSH_THEME="agnoster"
 #ZSH_THEME="nebirhos"
-
+alias tmux="TERM=screen-256color-bce tmux"
 DEFAULT_USER="andrewhallock"
 
 # Example aliases
