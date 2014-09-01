@@ -61,3 +61,6 @@ function! XTermPasteBegin()
 endfunction
 
 inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
+
+" highlight trailing whitespace
+match ErrorMsg '\s\+$'
