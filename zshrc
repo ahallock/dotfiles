@@ -62,21 +62,6 @@ export PATH="$HOME/bin:$PATH"
 # source z so we can jump around
 . ~/bin/z.sh
 
-# vi mode
-bindkey -v
-
-function zle-line-init zle-keymap-select {
-    VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]%  %{$reset_color%}"
-    RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/} $EPS1"
-    zle reset-prompt
-}
-
-zle -N zle-line-init
-zle -N zle-keymap-select
-export KEYTIMEOUT=1
-
-
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
