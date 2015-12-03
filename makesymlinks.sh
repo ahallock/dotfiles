@@ -36,4 +36,4 @@ for file in $files; do
 done
 
 mkdir -p ~/.vim/colors
-curl https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim > ~/.vim/colors/gruvbox.vim
+curl --insecure https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim > ~/.vim/colors/gruvbox.vim
