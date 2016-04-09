@@ -5,6 +5,7 @@ colorscheme gruvbox
 " numbers
 set relativenumber 
 set number
+set backupcopy=yes
 
 " tabs
 set tabstop=2
