@@ -39,6 +39,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'laurentgoudet/vim-howdoi.git'
 Bundle 'tfnico/vim-gradle'
+Bundle 'pangloss/vim-javascript'
 filetype plugin indent on
 
 " magic to turn off auto-indenting on paste
